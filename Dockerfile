@@ -25,7 +25,7 @@ RUN mvn -q dependency:resolve
 ADD src /code/src
 RUN mvn -q -DskipTests=true compile war:exploded
 RUN rm -rf /usr/local/tomcat/webapps/ROOT/*
-RUN cp -r target/travel/* $CATALINA_HOME/webapps/ROOT/
+RUN cp -r target/travel-1.0.0/* $CATALINA_HOME/webapps/ROOT/
 
 # Expose port
 EXPOSE 8080
