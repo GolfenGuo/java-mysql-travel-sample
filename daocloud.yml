@@ -1,0 +1,15 @@
+image: maven:3-jdk-7
+
+services:
+  - mysql
+
+env:
+
+install:
+
+
+before_script:
+
+
+script:
+  - mvn test
