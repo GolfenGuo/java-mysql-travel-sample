@@ -1,4 +1,4 @@
-FROM maven:3-jdk-7
+FROM maven:3-jdk-6
 
 MAINTAINER Golfen Guo "golfen.guo@daocloud.io"
 
